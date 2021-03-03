@@ -1,4 +1,4 @@
-const express = require('express');
+﻿const express = require('express');
 const conectarDB = require('./config/db');
 const cors = require('cors');
 //crear el servidor
@@ -33,9 +33,3 @@ app.listen(port,'0.0.0.0' ,() => {
     console.log(`El servidor está corriendo el puerto ${port}`);
 });
 
-
-/**
- * cadena de conexxion a mongo db = localhost:27017
- * mongodb://${IP_SERVER}:${PORT_DB}/anrwebpersonalbd
- * mongodb://localhost:27017/merntasks
- */
